@@ -35,8 +35,7 @@ def main():
     while True:
         try:
             line = next(lines)
-            prices = stringToIntegerList(line);
-            
+            prices = stringToIntegerList(line)       
             ret = Solution().maxProfit(prices)
 
             out = str(ret);
